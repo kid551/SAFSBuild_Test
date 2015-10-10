@@ -94,8 +94,12 @@
         <fileset dir="${git.wdir.core}/rrafs/" /></move>
     <move todir="${safssource}" preservelastmodified="true" >
         <fileset dir="${git.wdir.core}/src/" /></move>
+    <!--move todir="${safs.dependencies}" preservelastmodified="true" >
+        <fileset dir="${git.wdir.core}/dependencies/" /></move-->
+
+    <!-- SAFSBuild Test: Get the dependencies files from local folder -->
     <move todir="${safs.dependencies}" preservelastmodified="true" >
-        <fileset dir="${git.wdir.core}/dependencies/" /></move>
+        <fileset dir="./dependencies/" /></move>
     
     <!-- move _default_ to root of safssource -->
     <move todir="${safssource}"  preservelastmodified="true" >
@@ -141,11 +145,16 @@
         <fileset dir="${safs.dependencies}"/>
     </copy>
     <echo>Get/Update all 3rd party jars from FTP Server</echo>
-    <ftp action="get" remotedir="${rftlibs}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
-        <fileset dir="${rftlibs}"/> </ftp>
+    <!-- Comment the RFT libs for external users -->
+    <!-- ftp action="get" remotedir="${rftlibs}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
+        <fileset dir="${rftlibs}"/> </ftp -->
     <!-- do we need this safslibs? golden safsupdate.jar -->
-    <ftp action="get" remotedir="${safslibs}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
-        <fileset dir="${safslibs}" includes="*.exe,*.jar,*.zip" /></ftp>
+    <!-- ftp action="get" remotedir="${safslibs}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
+        <fileset dir="${safslibs}" includes="*.exe,*.jar,*.zip" /></ftp -->    
+    <copy todir="${safslibs}" preservelastmodified="true" >
+        <fileset dir="${safs.dependencies.libs}/safs" includes="*.exe,*.jar,*.zip" />
+    </copy>
+
     <!-- get the open source jar from github instead of internal FTP server -->
   	<!--ftp action="get" remotedir="${staflibs}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
         <fileset dir="${staflibs}"/></ftp>
