@@ -91,8 +91,12 @@
   
   <target name="seleniumplus.win.dist" depends="_make.sp.dist" >
 
-      <ftp action="get" remotedir="${sp.win.java}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
-          <fileset dir="${seleniumdist}/Java" includes="JDK*WIN.ZIP" /></ftp>
+      <!-- ftp action="get" remotedir="${sp.win.java}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
+          <fileset dir="${seleniumdist}/Java" includes="JDK*WIN.ZIP" /></ftp -->      
+      <copy todir="${seleniumdist}/Java" preservelastmodified="true" >
+        <fileset dir="${safs.dependencies.java}/win" includes="JDK*WIN.ZIP" />
+      </copy>
+
       <ftp action="get" remotedir="${sp.win.java}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
           <fileset dir="${seleniumdist}/Java64" includes="JRE*64*WIN.ZIP" /></ftp>
       <ftp action="get" remotedir="${sp.win.eclipse}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
