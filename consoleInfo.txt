@@ -1,0 +1,428 @@
+ [mkdir] Created dir: C:\SAFSBuild_Testing\classes
+  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes
+  [copy] Copying 16 files to C:\SAFSBuild_Testing\classes
+  [copy] Copying 3 files to C:\SAFSBuild_Testing\classes\resources
+  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\resources
+  [copy] Copying 3 files to C:\SAFSBuild_Testing\classes\org\safs
+  [copy] Copying 2 files to C:\SAFSBuild_Testing\classes\org\safs\jvmagent
+  [copy] Copying 2 files to C:\SAFSBuild_Testing\classes\org\safs\rational
+  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\org\safs\rational
+  [copy] Copying 4 files to C:\SAFSBuild_Testing\classes\org\safs\rational\ft
+  [copy] Copying 7 files to C:\SAFSBuild_Testing\classes\org\safs\image\icons
+  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\org\safs\selenium
+  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\org\safs\selenium\webdriver
+  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\org\safs\staf\service
+  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\STAF-INF\classes\org\safs\staf\service
+  [copy] Copying 158 files to C:\SAFSBuild_Testing\classes\org\safs\model
+ [javac] C:\SAFSBuild_Testing\safs.build.xml:233: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+ [javac] Compiling 847 source files to C:\SAFSBuild_Testing\classes
+ [javac] C:\SAFSBuild_Testing\source\common\TestScript.java:4: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\TestScript.java:5: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\TestScript.java:6: error: package com.rational.test.ft.script does not exist
+ [javac] import com.rational.test.ft.script.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\TestScript.java:7: error: package com.rational.test.ft.value does not exist
+ [javac] import com.rational.test.ft.value.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\TestScript.java:8: error: package com.rational.test.ft.vp does not exist
+ [javac] import com.rational.test.ft.vp.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:7: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.RationalTestException;
+ [javac]                            ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:8: error: package com.rational.test.ft.script does not exist
+ [javac] import com.rational.test.ft.script.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:9: error: package com.rational.test.ft.vp does not exist
+ [javac] import com.rational.test.ft.vp.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:10: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:65: error: cannot find symbol
+ [javac] public abstract class Script extends RationalTestScript {
+ [javac]                                      ^
+ [javac]   symbol: class RationalTestScript
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:70: error: cannot find symbol
+ [javac]     public static List localAtPath(String path) {
+ [javac]                   ^
+ [javac]   symbol:   class List
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:74: error: cannot find symbol
+ [javac]     public static Text localAtText(String name) {
+ [javac]                   ^
+ [javac]   symbol:   class Text
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:80: error: cannot find symbol
+ [javac]     public static Cell localAtCell(Column c, Row r) {
+ [javac]                                    ^
+ [javac]   symbol:   class Column
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:80: error: cannot find symbol
+ [javac]     public static Cell localAtCell(Column c, Row r) {
+ [javac]                                              ^
+ [javac]   symbol:   class Row
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:80: error: cannot find symbol
+ [javac]     public static Cell localAtCell(Column c, Row r) {
+ [javac]                   ^
+ [javac]   symbol:   class Cell
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:83: error: cannot find symbol
+ [javac]     public static Row localAtRow(int i) {
+ [javac]                   ^
+ [javac]   symbol:   class Row
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:86: error: cannot find symbol
+ [javac]     public static Column localAtColumn(int i) {
+ [javac]                   ^
+ [javac]   symbol:   class Column
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:89: error: cannot find symbol
+ [javac]     public static Row localAtRow(String key, Object val) {
+ [javac]                   ^
+ [javac]   symbol:   class Row
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:92: error: cannot find symbol
+ [javac]     public static Row localAtRow(
+ [javac]                   ^
+ [javac]   symbol:   class Row
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:99: error: cannot find symbol
+ [javac]     public static Row localAtRow(
+ [javac]                   ^
+ [javac]   symbol:   class Row
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:108: error: cannot find symbol
+ [javac]     public static Column localAtColumn(String key) {
+ [javac]                   ^
+ [javac]   symbol:   class Column
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:111: error: cannot find symbol
+ [javac]     public static Column localAtColumn(String key, Object val) {
+ [javac]                   ^
+ [javac]   symbol:   class Column
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:114: error: cannot find symbol
+ [javac]     public static Column localAtColumn(
+ [javac]                   ^
+ [javac]   symbol:   class Column
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:121: error: cannot find symbol
+ [javac]     public static Column localAtColumn(
+ [javac]                   ^
+ [javac]   symbol:   class Column
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:131: error: cannot find symbol
+ [javac]     public static Index localAtIndex(int index) {return atIndex(index);}
+ [javac]                   ^
+ [javac]   symbol:   class Index
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:133: error: cannot find symbol
+ [javac]     public IFtVerificationPoint localVp(String name) {
+ [javac]            ^
+ [javac]   symbol:   class IFtVerificationPoint
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:191: error: cannot find symbol
+ [javac]     public ProcessTestObject localRun(java.lang.String command,
+ [javac]            ^
+ [javac]   symbol:   class ProcessTestObject
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:204: error: cannot find symbol
+ [javac]     public ProcessTestObject localRunJava(java.lang.String main,
+ [javac]            ^
+ [javac]   symbol:   class ProcessTestObject
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RRobotJHook.java:29: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.UserStoppedScriptError;
+ [javac]                            ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\logging\RLogUtilities.java:7: error: package com.rational.test.ft.script does not exist
+ [javac]     import com.rational.test.ft.script.*;
+ [javac]     ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:29: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.MethodNotFoundException;
+ [javac]                            ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:30: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.TargetGoneException;
+ [javac]                            ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:31: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.BrowserTestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:32: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.GuiSubitemTestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:33: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.GuiTestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:34: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.TestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:35: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.TopLevelSubitemTestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:36: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.TopLevelTestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:37: error: package com.rational.test.ft.object.interfaces.flex does not exist
+ [javac] import com.rational.test.ft.object.interfaces.flex.FlexObjectTestObject;
+ [javac]                                                   ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:38: error: package com.rational.test.ft.object.map does not exist
+ [javac] import com.rational.test.ft.object.map.IMappedTestObject;
+ [javac]                                       ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:39: error: package com.rational.test.ft.object.map does not exist
+ [javac] import com.rational.test.ft.object.map.MappedTestObject;
+ [javac]                                       ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:40: error: package com.rational.test.ft.object.map does not exist
+ [javac] import com.rational.test.ft.object.map.SpyMappedTestObject;
+ [javac]                                       ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:41: error: package com.rational.test.ft.script does not exist
+ [javac] import com.rational.test.ft.script.IOptionName;
+ [javac]                                   ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:42: error: package com.rational.test.ft.value does not exist
+ [javac] import com.rational.test.ft.value.MethodInfo;
+ [javac]                                  ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RTestRecordData.java:15: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.TestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:316: error: cannot find symbol
+ [javac]     protected IFtVerificationPoint Dummy_contentsVP()
+ [javac]               ^
+ [javac]   symbol:   class IFtVerificationPoint
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:320: error: cannot find symbol
+ [javac]     protected IFtVerificationPoint Dummy_contentsVP(TestObject anchor)
+ [javac]                                                     ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\Script.java:320: error: cannot find symbol
+ [javac]     protected IFtVerificationPoint Dummy_contentsVP(TestObject anchor)
+ [javac]               ^
+ [javac]   symbol:   class IFtVerificationPoint
+ [javac]   location: class Script
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RGuiClassData.java:8: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RGuiClassData.java:9: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RGuiClassData.java:10: error: package com.rational.test.ft.script does not exist
+ [javac] import com.rational.test.ft.script.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RGuiClassData.java:11: error: package com.rational.test.ft.value does not exist
+ [javac] import com.rational.test.ft.value.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RGuiClassData.java:12: error: package com.rational.test.ft.vp does not exist
+ [javac] import com.rational.test.ft.vp.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:213: error: cannot find symbol
+ [javac]   public TopLevelTestObject getParentTestObject (TestObject obj) {
+ [javac]                                                  ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:213: error: cannot find symbol
+ [javac]   public TopLevelTestObject getParentTestObject (TestObject obj) {
+ [javac]          ^
+ [javac]   symbol:   class TopLevelTestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:258: error: cannot find symbol
+ [javac]   public TestObject getTestObject(String mapname, String windowName, String childName) {
+ [javac]          ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:295: error: cannot find symbol
+ [javac]   public TestObject getTestObject(String mapname, String windowName, String childName,
+ [javac]          ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:335: error: cannot find symbol
+ [javac]   public TestObject getTestObject(String mapname, String windowName, String childName,
+ [javac]          ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:517: error: cannot find symbol
+ [javac]   public TestObject getTestObject(String mapname, String windowName, String childName,
+ [javac]          ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:837: error: cannot find symbol
+ [javac]   private Object _copyCastWindow (TestObject anobj){
+ [javac]                                   ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:1250: error: cannot find symbol
+ [javac]   protected void listAllProperties (TestObject obj, String str) {
+ [javac]                                     ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:1263: error: cannot find symbol
+ [javac]   protected void listProperties (TestObject obj) {
+ [javac]                                  ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:1272: error: cannot find symbol
+ [javac]   protected void listNonValueProperties (TestObject obj) {
+ [javac]                                          ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:1281: error: cannot find symbol
+ [javac]   protected void listMethods (TestObject obj) {
+ [javac]                               ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:1295: error: cannot find symbol
+ [javac]   public static TestObject getHtmlDocumentObject(TestObject obj){
+ [javac]                                                  ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:1295: error: cannot find symbol
+ [javac]   public static TestObject getHtmlDocumentObject(TestObject obj){
+ [javac]                 ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:1322: error: cannot find symbol
+ [javac]     public static String getHtmlDocTitle(TestObject obj){
+ [javac]                                          ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:1366: error: cannot find symbol
+ [javac]     public static GuiTestObject getGuiTestObject(TestObject obj){
+ [javac]                                                  ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:1366: error: cannot find symbol
+ [javac]     public static GuiTestObject getGuiTestObject(TestObject obj){
+ [javac]                   ^
+ [javac]   symbol:   class GuiTestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:1386: error: cannot find symbol
+ [javac]     public static TestObject getMappedTestObject(SpyMappedTestObject spy){
+ [javac]                                                  ^
+ [javac]   symbol:   class SpyMappedTestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RDDGUIUtilities.java:1386: error: cannot find symbol
+ [javac]     public static TestObject getMappedTestObject(SpyMappedTestObject spy){
+ [javac]                   ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RDDGUIUtilities
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RTestRecordData.java:41: error: cannot find symbol
+ [javac]   private TestObject compTestObject = null;
+ [javac]           ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RTestRecordData
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RTestRecordData.java:44: error: cannot find symbol
+ [javac]   private TestObject windowTestObject = null;
+ [javac]           ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RTestRecordData
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RTestRecordData.java:74: error: cannot find symbol
+ [javac]   public TestObject getWindowTestObject () {return windowTestObject;}
+ [javac]          ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RTestRecordData
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RTestRecordData.java:75: error: cannot find symbol
+ [javac]   public void setWindowTestObject (TestObject windowTestObject) {this.windowTestObject = windowTestObject;}
+ [javac]                                    ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RTestRecordData
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RTestRecordData.java:81: error: cannot find symbol
+ [javac]   public TestObject getCompTestObject () {return compTestObject;}
+ [javac]          ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RTestRecordData
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\RTestRecordData.java:82: error: cannot find symbol
+ [javac]   public void setCompTestObject (TestObject compTestObject) {this.compTestObject = compTestObject;}
+ [javac]                                  ^
+ [javac]   symbol:   class TestObject
+ [javac]   location: class RTestRecordData
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\tools\engines\AutoItComponent.java:47: error: package autoitx4java does not exist
+ [javac] import autoitx4java.AutoItX;
+ [javac]                    ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\autoit\AutoIt.java:19: error: package autoitx4java does not exist
+ [javac] import autoitx4java.AutoItX;
+ [javac]                    ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\autoit\AutoIt.java:21: error: package com.jacob.com does not exist
+ [javac] import com.jacob.com.ComFailException;
+ [javac]                     ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\autoit\AutoIt.java:22: error: package com.jacob.com does not exist
+ [javac] import com.jacob.com.LibraryLoader;
+ [javac]                     ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\autoit\AutoIt.java:31: error: cannot find symbol
+ [javac]     private static AutoItX it = null;
+ [javac]                    ^
+ [javac]   symbol:   class AutoItX
+ [javac]   location: class AutoIt
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\autoit\AutoIt.java:35: error: cannot find symbol
+ [javac]     public static AutoItX AutoItObject() throws SAFSProcessorInitializationException{
+ [javac]                   ^
+ [javac]   symbol:   class AutoItX
+ [javac]   location: class AutoIt
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFButton.java:11: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFButton.java:12: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFButton.java:13: error: package com.rational.test.ft.script does not exist
+ [javac] import com.rational.test.ft.script.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFButton.java:14: error: package com.rational.test.ft.value does not exist
+ [javac] import com.rational.test.ft.value.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFButton.java:15: error: package com.rational.test.ft.vp does not exist
+ [javac] import com.rational.test.ft.vp.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFButton.java:16: error: package com.rational.test.ft.object.map does not exist
+ [javac] import com.rational.test.ft.object.map.*;
+ [javac] ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:108: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.MethodNotFoundException;
+ [javac]                            ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:109: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.PropertyNotFoundException;
+ [javac]                            ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:110: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.RationalTestException;
+ [javac]                            ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:111: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.SubitemNotFoundException;
+ [javac]                            ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:112: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.TargetGoneException;
+ [javac]                            ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:113: error: package com.rational.test.ft does not exist
+ [javac] import com.rational.test.ft.UnsupportedActionException;
+ [javac]                            ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:114: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.DomainTestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:115: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.GuiSubitemTestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:116: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.GuiTestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:117: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.RootTestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:118: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.ScrollTestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\w3c\tools\codec\BinaryFileEncoder.java:18: warning: FileSystem is internal proprietary API and may be removed in a future release
+ [javac] import sun.management.FileSystem;
+ [javac]                      ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\model\tools\Runner.java:185: warning: Reflection is internal proprietary API and may be removed in a future release
+ [javac]                     reflectStr= sun.reflect.Reflection.getCallerClass(i).getName();
+ [javac]                                            ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\model\tools\Runner.java:187: warning: Reflection is internal proprietary API and may be removed in a future release
+ [javac]                     if(!reflectStr.equals(sun.reflect.Reflection.class.getName()) &&
+ [javac]                                                      ^
+ [javac] Note: Some input files use or override a deprecated API.
+ [javac] Note: Recompile with -Xlint:deprecation for details.
+ [javac] Note: Some input files use unchecked or unsafe operations.
+ [javac] Note: Recompile with -Xlint:unchecked for details.
+ [javac] 100 errors
+ [javac] 3 warnings
