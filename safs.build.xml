@@ -817,8 +817,11 @@
                 
       <!-- FTP STAF installation binary -->
       
-      <ftp action="get" remotedir="${staftools}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
-          <fileset dir="${safsdist}/install" includes="STAF3*win32-NoJVM.exe" /></ftp>
+      <!-- ftp action="get" remotedir="${staftools}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
+          <fileset dir="${safsdist}/install" includes="STAF3*win32-NoJVM.exe" /></ftp -->
+      <copy todir="${safsdist}/install" preservelastmodified="true" >
+        <fileset dir="${safs.dependencies.tools}/staf" includes="STAF3*win32-NoJVM.exe" />
+      </copy>
 
       <!-- Create ReleaseCandidate ZIP   -->
       
