@@ -591,8 +591,11 @@
   </target>
   
   <target name="safs.win.dist" depends="_make.safs.dist" >
-      <ftp action="get" remotedir="${safs.win.java}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
-          <fileset dir="${safsdist}/jre" includes="JRE*WIN.ZIP" /></ftp>
+      <!-- ftp action="get" remotedir="${safs.win.java}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
+          <fileset dir="${safsdist}/jre" includes="JRE*WIN.ZIP" /></ftp -->
+      <copy todir="${safsdist}/jre" preservelastmodified="true" >
+        <fileset dir="${safs.dependencies.java}/win" includes="JRE*WIN.ZIP" />
+      </copy>
           
       <unzip dest="${safsdist}/jre" >
           <fileset dir="${safsdist}/jre/" includes="JRE*WIN.ZIP" >
