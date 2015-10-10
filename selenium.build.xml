@@ -101,9 +101,12 @@
       <copy todir="${seleniumdist}/Java64" preservelastmodified="true" >
         <fileset dir="${safs.dependencies.java}/win" includes="JRE*64*WIN.ZIP" />
       </copy>
+      <!-- ftp action="get" remotedir="${sp.win.eclipse}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
+          <fileset dir="${seleniumdist}/eclipse" includes="*WIN.ZIP" /></ftp -->
+      <copy todir="${seleniumdist}/eclipse" preservelastmodified="true" >
+        <fileset dir="${safs.dependencies.eclipse}/win" includes="*WIN.ZIP" />
+      </copy>
 
-      <ftp action="get" remotedir="${sp.win.eclipse}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
-          <fileset dir="${seleniumdist}/eclipse" includes="*WIN.ZIP" /></ftp>
       <ftp action="get" remotedir="${ocrtools}/bin/" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
           <fileset dir="${seleniumdist}/extra/automation/bin/" /></ftp>
       <ftp action="get" remotedir="${ocrtools}/ocr/" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
