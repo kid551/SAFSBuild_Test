@@ -232,7 +232,9 @@
                      **/*.png **/.gif  **/.jpg 
                      **/*.classpath **/*.project" >
        <src path="${safssource}" /> 
-       <exclude name="com/jayway/android/robotium/solo/**" />
+       <exclude name="org/safs/rational/**" />
+       <exclude name="TestScript.java" />
+	   <exclude name="com/jayway/android/robotium/solo/**" />
        <exclude name="eclipse/**" />
        <exclude name="install/**" />
        <exclude name="keywords/**" />
@@ -248,8 +250,6 @@
        <exclude name="org/safs/tools/drivers/test/**" />
        <exclude name="org/safs/tools/engines/test/**" />
        <exclude name="org/safs/tools/expressions/test/**" />
-       <exclude name="org/safs/rational/**" /> <!-- Test for excluding rational -->
-       <exclude name="TestScript.java" /> <!-- Test for excluding rational --> 
     </javac>
     
     <rmic base="${safssource}" 
