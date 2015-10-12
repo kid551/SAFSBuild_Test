@@ -1,19 +1,3 @@
- [mkdir] Created dir: C:\SAFSBuild_Testing\classes
-  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes
-  [copy] Copying 16 files to C:\SAFSBuild_Testing\classes
-  [copy] Copying 3 files to C:\SAFSBuild_Testing\classes\resources
-  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\resources
-  [copy] Copying 3 files to C:\SAFSBuild_Testing\classes\org\safs
-  [copy] Copying 2 files to C:\SAFSBuild_Testing\classes\org\safs\jvmagent
-  [copy] Copying 2 files to C:\SAFSBuild_Testing\classes\org\safs\rational
-  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\org\safs\rational
-  [copy] Copying 4 files to C:\SAFSBuild_Testing\classes\org\safs\rational\ft
-  [copy] Copying 7 files to C:\SAFSBuild_Testing\classes\org\safs\image\icons
-  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\org\safs\selenium
-  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\org\safs\selenium\webdriver
-  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\org\safs\staf\service
-  [copy] Copying 1 file to C:\SAFSBuild_Testing\classes\STAF-INF\classes\org\safs\staf\service
-  [copy] Copying 158 files to C:\SAFSBuild_Testing\classes\org\safs\model
  [javac] C:\SAFSBuild_Testing\safs.build.xml:233: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
  [javac] Compiling 847 source files to C:\SAFSBuild_Testing\classes
  [javac] C:\SAFSBuild_Testing\source\common\TestScript.java:4: error: package com.rational.test.ft does not exist
@@ -338,28 +322,6 @@
  [javac]                                  ^
  [javac]   symbol:   class TestObject
  [javac]   location: class RTestRecordData
- [javac] C:\SAFSBuild_Testing\source\common\org\safs\tools\engines\AutoItComponent.java:47: error: package autoitx4java does not exist
- [javac] import autoitx4java.AutoItX;
- [javac]                    ^
- [javac] C:\SAFSBuild_Testing\source\common\org\safs\autoit\AutoIt.java:19: error: package autoitx4java does not exist
- [javac] import autoitx4java.AutoItX;
- [javac]                    ^
- [javac] C:\SAFSBuild_Testing\source\common\org\safs\autoit\AutoIt.java:21: error: package com.jacob.com does not exist
- [javac] import com.jacob.com.ComFailException;
- [javac]                     ^
- [javac] C:\SAFSBuild_Testing\source\common\org\safs\autoit\AutoIt.java:22: error: package com.jacob.com does not exist
- [javac] import com.jacob.com.LibraryLoader;
- [javac]                     ^
- [javac] C:\SAFSBuild_Testing\source\common\org\safs\autoit\AutoIt.java:31: error: cannot find symbol
- [javac]     private static AutoItX it = null;
- [javac]                    ^
- [javac]   symbol:   class AutoItX
- [javac]   location: class AutoIt
- [javac] C:\SAFSBuild_Testing\source\common\org\safs\autoit\AutoIt.java:35: error: cannot find symbol
- [javac]     public static AutoItX AutoItObject() throws SAFSProcessorInitializationException{
- [javac]                   ^
- [javac]   symbol:   class AutoItX
- [javac]   location: class AutoIt
  [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFButton.java:11: error: package com.rational.test.ft does not exist
  [javac] import com.rational.test.ft.*;
  [javac] ^
@@ -411,6 +373,24 @@
  [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:118: error: package com.rational.test.ft.object.interfaces does not exist
  [javac] import com.rational.test.ft.object.interfaces.ScrollTestObject;
  [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:119: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.TestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:120: error: package com.rational.test.ft.object.interfaces does not exist
+ [javac] import com.rational.test.ft.object.interfaces.TopLevelTestObject;
+ [javac]                                              ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:121: error: package com.rational.test.ft.object.interfaces.flex does not exist
+ [javac] import com.rational.test.ft.object.interfaces.flex.FlexObjectTestObject;
+ [javac]                                                   ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:122: error: package com.rational.test.ft.object.interfaces.flex does not exist
+ [javac] import com.rational.test.ft.object.interfaces.flex.FlexScrollBaseTestObject;
+ [javac]                                                   ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:123: error: package com.rational.test.ft.script does not exist
+ [javac] import com.rational.test.ft.script.Action;
+ [javac]                                   ^
+ [javac] C:\SAFSBuild_Testing\source\common\org\safs\rational\CFComponent.java:124: error: package com.rational.test.ft.script does not exist
+ [javac] import com.rational.test.ft.script.FlexScrollDetails;
+ [javac]                                   ^
  [javac] C:\SAFSBuild_Testing\source\common\org\w3c\tools\codec\BinaryFileEncoder.java:18: warning: FileSystem is internal proprietary API and may be removed in a future release
  [javac] import sun.management.FileSystem;
  [javac]                      ^
