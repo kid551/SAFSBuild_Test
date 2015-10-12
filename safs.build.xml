@@ -248,6 +248,8 @@
        <exclude name="org/safs/tools/drivers/test/**" />
        <exclude name="org/safs/tools/engines/test/**" />
        <exclude name="org/safs/tools/expressions/test/**" />
+       <!-- Test for excluding rational --> <exclude name="org/safs/rational/**" />
+       <!-- Test for excluding rational --> <exclude name="./TestScript.java" />
     </javac>
     
     <rmic base="${safssource}" 
