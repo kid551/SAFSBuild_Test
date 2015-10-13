@@ -142,7 +142,7 @@
         <fileset dir="${installlibs}" excludes="*.js,*.htm,*.properties"/>
     </copy>
     <copy todir="${libs}" preservelastmodified="true" >
-        <fileset dir="${safs.dependencies}"/>
+        <fileset dir="${safs.dependencies.libs}"/>
     </copy>
     <echo>Get/Update all 3rd party jars from FTP Server</echo>
     <!-- Comment the RFT libs for external users -->
@@ -231,9 +231,10 @@
                      **/*.htm **/*.html 
                      **/*.png **/.gif  **/.jpg 
                      **/*.classpath **/*.project" >
-       <src path="${safssource}" /> 
-       <exclude name="org/safs/rational/**" />
+       <src path="${safssource}" />
        <exclude name="TestScript.java" />
+	   <exclude name="org/safs/rational/**/*.java" />
+	   <exclude name="resources/*.java" />
 	   <exclude name="com/jayway/android/robotium/solo/**" />
        <exclude name="eclipse/**" />
        <exclude name="install/**" />
