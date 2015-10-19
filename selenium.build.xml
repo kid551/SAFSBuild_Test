@@ -91,21 +91,21 @@
   
   <target name="seleniumplus.win.dist" depends="_make.sp.dist" >
 
-      <!-- ftp action="get" remotedir="${sp.win.java}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
-          <fileset dir="${seleniumdist}/Java" includes="JDK*WIN.ZIP" /></ftp -->      
-      <copy todir="${seleniumdist}/Java" preservelastmodified="true" >
+      <ftp action="get" remotedir="${sp.win.java}" server="${Lftpserver}" userid="${Lftpuserid}" password="${Lftppasswrd}"  preservelastmodified="true" >
+          <fileset dir="${seleniumdist}/Java" includes="JDK*WIN.ZIP" /></ftp>      
+      <!-- copy todir="${seleniumdist}/Java" preservelastmodified="true" >
         <fileset dir="${safs.dependencies.java}/win" includes="JDK*WIN.ZIP" />
-      </copy>
-      <!-- ftp action="get" remotedir="${sp.win.java}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
-          <fileset dir="${seleniumdist}/Java64" includes="JRE*64*WIN.ZIP" /></ftp -->
-      <copy todir="${seleniumdist}/Java64" preservelastmodified="true" >
+      </copy -->
+      <ftp action="get" remotedir="${sp.win.java}" server="${Lftpserver}" userid="${Lftpuserid}" password="${Lftppasswrd}"  preservelastmodified="true" >
+          <fileset dir="${seleniumdist}/Java64" includes="JRE*64*WIN.ZIP" /></ftp>
+      <!-- copy todir="${seleniumdist}/Java64" preservelastmodified="true" >
         <fileset dir="${safs.dependencies.java}/win" includes="JRE*64*WIN.ZIP" />
-      </copy>
-      <!-- ftp action="get" remotedir="${sp.win.eclipse}" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
-          <fileset dir="${seleniumdist}/eclipse" includes="*WIN.ZIP" /></ftp -->
-      <copy todir="${seleniumdist}/eclipse" preservelastmodified="true" >
+      </copy -->
+      <ftp action="get" remotedir="${sp.win.eclipse}" server="${Lftpserver}" userid="${Lftpuserid}" password="${Lftppasswrd}"  preservelastmodified="true" >
+          <fileset dir="${seleniumdist}/eclipse" includes="*WIN.ZIP" /></ftp>
+      <!-- copy todir="${seleniumdist}/eclipse" preservelastmodified="true" >
         <fileset dir="${safs.dependencies.eclipse}/win" includes="*WIN.ZIP" />
-      </copy>
+      </copy -->
       <!-- ftp action="get" remotedir="${ocrtools}/bin/" server="${ftpserver}" userid="${ftpuserid}" password="${ftppasswrd}"  preservelastmodified="true" >
           <fileset dir="${seleniumdist}/extra/automation/bin/" /></ftp -->      
       <copy todir="${seleniumdist}/extra/automation/bin/" preservelastmodified="true" >
